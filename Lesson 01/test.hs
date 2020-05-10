@@ -14,3 +14,7 @@ fromPart author = "Thanks,\n" ++ author
 createEmail recipient bookTitle author =  toPart recipient ++ 
                                           bodyPart bookTitle ++
                                           fromPart author
+
+-- Function that finds a power of two
+twoToPower power = 2 ^ power
+
